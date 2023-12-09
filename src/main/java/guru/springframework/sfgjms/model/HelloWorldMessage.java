@@ -9,9 +9,9 @@ import java.io.Serializable;
 import java.util.UUID;
 
 @Data
+@Builder
 @AllArgsConstructor
 @NoArgsConstructor
-@Builder
 public class HelloWorldMessage implements Serializable {
 
     static final long serialVersionUID = -5193824657303558577L;
